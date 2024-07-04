@@ -35,26 +35,19 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.cityName.text = capeTownWeather.location.city
-        binding.countryName.text = capeTownWeather.location.country
-        binding.conditionText.text = capeTownWeather.current_observation.condition.text
         binding.temperature.text = "Temp: ${capeTownWeather.current_observation.condition.temperature}°F"
-        binding.conditionDescription.text = "Text: ${capeTownWeather.current_observation.condition.text}"
-        binding.windChill.text = "Chill: ${capeTownWeather.current_observation.wind.chill}°F"
-        binding.windSpeed.text = "Speed: ${capeTownWeather.current_observation.wind.speed} mph"
-        binding.humidity.text = "Humidity: ${capeTownWeather.current_observation.atmosphere.humidity}%"
         binding.sunset.text = "Sunset: ${capeTownWeather.current_observation.astronomy.sunset}"
 
         val forecastsContainer = binding.forecastsContainer
         val inflater = LayoutInflater.from(this)
 
-        capeTownWeather.forecasts.forEach { forecast ->
-            val itemBinding = ItemForecastBinding.inflate(inflater, forecastsContainer, false)
-            itemBinding.day.text = forecast.day
-            itemBinding.high.text = "High: ${forecast.high}°F"
-            itemBinding.low.text = "Low: ${forecast.low}°F"
-            itemBinding.forecastText.text = forecast.text
+        val itemBinding = ItemForecastBinding.inflate(inflater, forecastsContainer, false)
+        val forecast = capeTownWeather.forecasts[0]
+        itemBinding.day.text = forecast.day
+        itemBinding.high.text = "High: ${forecast.high}°F"
+        itemBinding.low.text = "Low: ${forecast.low}°F"
+        itemBinding.forecastText.text = forecast.text
 
-            forecastsContainer.addView(itemBinding.root)
-        }
+        forecastsContainer.addView(itemBinding.root)
     }
 }
