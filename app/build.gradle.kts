@@ -18,9 +18,9 @@ android {
     }
 
     //to simplify and enhance the way you interact with your views. View binding generates a binding class for each XML layout file, which allows you to directly reference all views with type safety and null safety.
-    buildFeatures {
-        viewBinding = true
-    }
+//    buildFeatures {
+//        viewBinding = true
+//    }
 
     buildTypes {
         release {
@@ -52,6 +52,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     // Handle converting json to objects
-    implementation("com.google.code.gson:gson:2.8.8")
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+//    implementation("com.google.code.gson:gson:2.8.8")
+//    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 }
