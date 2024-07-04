@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@android:color/darker_gray"
+    android:layout_marginEnd="8dp">
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/high"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/low"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Low"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/forecastText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forecast"
+        android:textColor="@android:color/black"/>
+</LinearLayout>

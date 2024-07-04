@@ -1,0 +1,122 @@
+{
+  "location": {
+    "city": "Cape Town",
+    "woeid": 1591691,
+    "country": "South Africa",
+    "lat": -33.91906,
+    "long": 18.421961,
+    "timezone_id": "Africa/Johannesburg"
+  },
+  "current_observation": {
+    "pubDate": 1719989791,
+    "wind": {
+      "chill": 41,
+      "direction": "North",
+      "speed": 12
+    },
+    "atmosphere": {
+      "humidity": 91,
+      "visibility": 10,
+      "pressure": 1014.2
+    },
+    "astronomy": {
+      "sunrise": "7:52 AM",
+      "sunset": "5:49 PM"
+    },
+    "condition": {
+      "temperature": 52,
+      "text": "Showers",
+      "code": 11
+    }
+  },
+  "forecasts": [
+    {
+      "day": "Wed",
+      "date": 1720022400,
+      "high": 59,
+      "low": 49,
+      "text": "Mostly Clear",
+      "code": 33
+    },
+    {
+      "day": "Thu",
+      "date": 1720108800,
+      "high": 61,
+      "low": 49,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Fri",
+      "date": 1720195200,
+      "high": 62,
+      "low": 45,
+      "text": "Mostly Sunny",
+      "code": 34
+    },
+    {
+      "day": "Sat",
+      "date": 1720281600,
+      "high": 70,
+      "low": 50,
+      "text": "Partly Cloudy",
+      "code": 30
+    },
+    {
+      "day": "Sun",
+      "date": 1720368000,
+      "high": 54,
+      "low": 46,
+      "text": "Mostly Cloudy",
+      "code": 28
+    },
+    {
+      "day": "Mon",
+      "date": 1720454400,
+      "high": 53,
+      "low": 51,
+      "text": "Rain",
+      "code": 12
+    },
+    {
+      "day": "Tue",
+      "date": 1720540800,
+      "high": 56,
+      "low": 55,
+      "text": "Showers",
+      "code": 11
+    },
+    {
+      "day": "Wed",
+      "date": 1720627200,
+      "high": 57,
+      "low": 49,
+      "text": "Rain",
+      "code": 12
+    },
+    {
+      "day": "Thu",
+      "date": 1720713600,
+      "high": 52,
+      "low": 48,
+      "text": "Showers",
+      "code": 11
+    },
+    {
+      "day": "Fri",
+      "date": 1720800000,
+      "high": 55,
+      "low": 44,
+      "text": "Cloudy",
+      "code": 26
+    },
+    {
+      "day": "Sat",
+      "date": 1720886400,
+      "high": 59,
+      "low": 45,
+      "text": "Showers",
+      "code": 11
+    }
+  ]
+}
